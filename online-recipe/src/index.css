@@ -1,0 +1,305 @@
+nav{
+  display: flex;
+  justify-content:space-between;
+ 
+}
+
+img
+{
+  height: 100px;
+  width: 200px;
+  border-radius: 15px;
+}
+.pagenav_ul
+{
+  display: flex;
+  gap: 50px;
+  list-style: none;
+ 
+}
+li
+{
+  font-size: large;
+  list-style:none;
+  
+}
+a 
+{
+  text-decoration: none;
+}
+.Login_form
+{
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  gap:10px;
+  margin-top: 150px;
+  background-color: rgb(148, 7, 7);
+  border-radius: 100px;
+  height: 300px;
+}
+label
+{
+  margin-left: 10px;
+}
+input
+{
+  border-radius: 10px;
+  height: 27px;
+  width: 200px;
+  margin-top: 50px;
+}
+.Display
+{
+  display: flex;
+  background-color: rgb(148, 7, 7);
+  width: 300px;
+  height: 650px;
+  position: absolute;
+  top:10px;
+  border-radius: 10px;
+  box-shadow: 10px black 10px;
+  transition: width 2s, height 4s;
+  
+}
+
+
+.Display_ul
+{
+  position: absolute;
+  bottom: 300px;
+  gap: 10px;
+}
+body
+{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(69, 69, 218);
+
+}
+.Display.none {
+  opacity: 1;
+  height: 100px; /* Set a fixed or auto height for visibility */
+}
+.onClick
+{
+  background-color: rgb(148, 7, 7);
+  color: white;
+  padding: 10px;
+  display: fixed;
+  position: absolute;
+  top: 2px;
+  left: 260px;
+  border-radius: 10px;
+}
+
+li
+{
+  color: aliceblue;
+}
+a
+{
+  color: #edecec;
+}
+a:hover
+{
+  color: #000000d2;
+}
+a:active
+{
+  color: #72da1c;
+}
+.submitlogin
+{
+
+ margin-bottom: 200px;
+}
+.form_register
+{
+  width: 400px;
+  margin: auto;
+}
+.message
+{
+ background-color: antiquewhite;
+ width: 270px;
+ border: 2px solid red;
+  border-radius: 8px;
+  padding: 5px;
+  margin: auto;
+  position: absolute;
+  right: 800px;
+  top: 0px;
+
+
+}
+.form_register
+{
+
+  color: aliceblue;
+  border-radius: 30px;
+  height: 85vh;
+  
+}
+footer
+{
+  background-color: beige;
+  width: 98%;
+  height: 54px;
+  margin: auto;
+  text-align: center;
+   padding: 10px;
+  border-radius: 10px;
+}
+.handleFormSubmi
+{
+  margin: auto;
+  width: 100px;
+  height: 30px;
+  margin-left: 30%;
+  border-radius: 10px;
+  margin-top: 10px;
+  
+}
+.handleFormSubmi:active
+{
+ background-color: #72da1c;
+ transition-property: width;
+ transition-duration: 2s;
+ transition-timing-function: linear;
+ transition-delay: 1s;
+}
+/* Container for centering the form */
+.Login_div_form {
+  display: flex; /* Use Flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 70vh; /* Full viewport height */
+  background-color: #f0f2f5; /* Light gray background for a modern look */
+  margin: 0; /* Remove default margin */
+}
+
+/* Style for the form itself */
+.Login_form {
+  display: flex; /* Use Flexbox for form layout */
+  flex-direction: column; /* Stack form elements vertically */
+  width: 100%; /* Full width to fit smaller screens */
+  max-width: 400px; /* Limit width to a maximum size */
+  padding: 20px; /* Add padding inside the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  background-color: #ffffff; /* White background for contrast */
+}
+
+/* Style for input fields */
+.Login_form input {
+  margin-bottom: 15px; /* Space between input fields */
+  padding: 10px; /* Add padding inside input fields */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Comfortable font size */
+  width: 100%; /* Full width of the form */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+/* Style for the submit button */
+.submitlogin {
+  padding: 12px; /* Add padding inside the button */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #007bff; /* Primary color */
+  color: #ffffff; /* White text */
+  font-size: 16px; /* Font size for readability */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+/* Button hover effect */
+.submitlogin:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: scale(1.02); /* Slightly increase button size on hover */
+}
+
+h1{
+  text-align: center;
+}
+.listItem {
+  color: black;
+  height: 50vh;
+}
+.list{
+  color: #72da1c;
+  cursor: pointer;
+  transition: font-size 2s;
+}
+.list:hover
+{
+  color: #000;
+font-size:x-large;
+}
+.table {
+  height: 58vh;
+  background-color: #cb7c7c;
+  width: 40vh;
+  border-radius: 10px;
+  margin-left: 100px;
+  box-shadow: 10px 10px lightblue;
+}
+.tableList{
+  display: flex;
+  position: absolute;
+}
+.previus,.next
+{
+  border-radius: 20px;
+  color: rgb(10, 9, 9);
+
+}
+
+
+
+.previus:hover{
+  color: #a6c2df;
+  background-color: #0056b3;
+}
+.next:hover{
+  background-color: #0056b3;
+}
+.form
+{
+  position: absolute;
+  top:455px;
+  right: 1020px;
+
+}
+h1
+{
+  color: black;
+}
+.next
+{
+  position: absolute;
+  top: 430px;
+  right: 1050px;
+}
+.previus{
+  position: absolute;
+  top: 430px;
+  right: 1100px;
+
+}
+.searchInput
+{
+  margin: auto;
+}
+body
+{
+  margin: auto;
+  text-align: center;
+ 
+}
+input,button
+{
+  border-radius: 20px;
+}
