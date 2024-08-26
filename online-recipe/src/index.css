@@ -288,11 +288,11 @@ font-size:x-large;
 }
 .table {
   height: 58vh;
-  background-image: url(Images/firstTable.jpg);
+background-color: #000;
   width: 40vh;
   border-radius: 10px;
   margin-left: 100px;
-  background-image: url();
+  opacity: 0.5;
 }
 .tableList{
   display: flex;
@@ -368,4 +368,10 @@ legend
 {
   font-family: "Anton", sans-serif;
   width: 200px;
+}
+form
+{
+  width: 15vh;
+  margin: auto;
+  border-radius: 10px;
 }
