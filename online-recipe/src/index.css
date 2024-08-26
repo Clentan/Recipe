@@ -351,3 +351,21 @@ input,button
 {
   border-radius: 20px;
 }
+.time
+{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+label
+{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #d80404;
+}
+legend
+{
+  font-family: "Anton", sans-serif;
+  width: 200px;
+}

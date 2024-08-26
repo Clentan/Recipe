@@ -1273,6 +1273,14 @@
       "password": "12345",
       "confirm_password": "12345",
       "completed": false
+    },
+    {
+      "id": "c937",
+      "username": "Celnatsa",
+      "credentials": "c chauke",
+      "password": "12345",
+      "confirm_password": "12345",
+      "completed": false
     }
   ]
 }
