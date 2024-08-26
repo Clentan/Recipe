@@ -26,6 +26,7 @@ li
 a 
 {
   text-decoration: none;
+  color: black;
 }
 .Login_form
 {
@@ -76,8 +77,38 @@ body
   padding: 0;
   margin: 0;
   background-color: rgb(69, 69, 218);
-
+  background-image: cover;
+  width: 100%;
+  background-repeat: repeat-x;
+  animation: name duration timing-function delay iteration-count direction fill-mode;
+  animation-name: Change;
+  animation-duration: 10s;
+  animation-timing-function:ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 10s;
 }
+
+@keyframes Change{
+  0%{
+    background-image: url(Images/wallpaper.jpeg)
+     ;
+  }
+  30%{
+     background-image: url(Images/wallpaper.jpeg);
+  }
+  60%{
+      background-image: url(Images/wallpaper2.webp);
+  }
+  70%{
+      background-image: url(Images/wallpaper3.jpg)
+  }
+  100%{
+      background-image: url(Images/wallpaper4.jpg);
+  }
+}
+
 .Display.none {
   opacity: 1;
   height: 100px; /* Set a fixed or auto height for visibility */
@@ -100,11 +131,18 @@ li
 }
 a
 {
-  color: #edecec;
+
+  text-decoration: solid;
+  text-transform: capitalize;
+  text-decoration: teal;
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
 }
 a:hover
 {
-  color: #000000d2;
+  color: #18b143d2;
 }
 a:active
 {
@@ -131,6 +169,7 @@ a:active
   position: absolute;
   right: 800px;
   top: 0px;
+  
 
 
 }
@@ -223,13 +262,22 @@ footer
 
 h1{
   text-align: center;
-}
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+  }
+  
+
 .listItem {
   color: black;
   height: 50vh;
 }
 .list{
-  color: #72da1c;
+  color: #aafa5b;
   cursor: pointer;
   transition: font-size 2s;
 }
@@ -240,11 +288,11 @@ font-size:x-large;
 }
 .table {
   height: 58vh;
-  background-color: #cb7c7c;
+  background-image: url(Images/firstTable.jpg);
   width: 40vh;
   border-radius: 10px;
   margin-left: 100px;
-  box-shadow: 10px 10px lightblue;
+  background-image: url();
 }
 .tableList{
   display: flex;

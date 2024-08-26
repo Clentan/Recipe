@@ -28,9 +28,7 @@ export default function Name() {
                 <li className='time'>
                     Time: {time.toLocaleTimeString()} {time.getHours() < 12 ? 'AM' : 'PM'}
                 </li> 
-                <li>Name: </li> 
-                <li>Location: </li> 
-                <li>Menu food display advertisement</li>
+                
             </ul>
             <button
                 className='onClick'

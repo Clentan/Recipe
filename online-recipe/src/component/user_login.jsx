@@ -35,7 +35,7 @@ const UserLogin = () => {
                 setUserInfo({ name: user.username, location: user.location, time: currentTime }); // Store user info with time
                 navigate('/'); // Redirect to home page or another route
             } else {
-                setMessage('Invalid username or password.');
+                setMessage('Invalid username or password.Please recheck your details!!');
             }
         } catch (error) {
             console.error('Error:', error);
@@ -65,10 +65,11 @@ const UserLogin = () => {
                         value={password}
                         onChange={(e) => setPassword(e.target.value)} // Update password state
                     />
+                    {message && <p className='login_message'>{message}</p>} {/* Display message */}
                     <button className='submitlogin' type='submit' disabled={loading}>
                         {loading ? 'Logging in...' : 'Login'}
                     </button> {/* Submit button */}
-                    {message && <p className='login_message'>{message}</p>} {/* Display message */}
+                    
                 </form>
             </div>
          

@@ -168,6 +168,7 @@ export default function Home() {
         {/* Add Recipe Section */}
         <div>
           <ul className='table'>
+          <h1>Add Recipe</h1>
           <form className='OwnRecipe' onSubmit={handleAddRecipe}>
               <input
                 value={addRecipeTitle}
@@ -188,7 +189,7 @@ export default function Home() {
               />
               <button type="submit">ADD</button>
             </form>
-            <h1>Add Recipe</h1>
+           
           
             <ul>
               {addedRecipes.map((recipe, index) => (
